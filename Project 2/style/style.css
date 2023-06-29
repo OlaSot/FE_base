@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 60px;
+    background-color: rgb(205, 164, 178);
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+body {
+    font-family: 'Lobster', cursive;
+}
+h1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(210, 198, 222);
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+}
+    div {
+    width: calc(50% - 20px);
+    height: 200px;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid grey;
+    border-radius: 8px;
+    transition: 1s;
+}
+div:hover {
+transform: scale(1.05);
+}
+.item-1 {
+    background-image: url(../images/1661330990_cats.jpg);
+}
+.item-2 {
+    background-image: url(../images/clipboard-84-1139718-1661550300.jpg);
+}
+.item-3 {
+    background-image: url(../images/community-cats-575021.jpg);
+}
+.item-4 {
+    background-image: url(../images/gettyimages-1279899488_wide-f3860ceb0ef19643c335cb34df3fa1de166e2761-s1100-c50.jpg);
+}
+.item-5 {
+    background-image: url(../images/interesting-cat-facts.jpg);
+}
+.item-6 {
+    background-image: url(../images/kitten-510651.jpg);
+}
+.item-7 {
+    background-image: url(../images/p07ryyyj.jpg);
+}
+.item-8 {
+    background-image: url(../images/TELEMMGLPICT000196089780_trans_NvBQzQNjv4Bqyntj27Do1A_uEF6jNSG5Ntf11FLKtqwYaxK652uKeQE.jpeg);
+}

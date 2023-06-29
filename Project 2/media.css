@@ -1,0 +1,29 @@
+@media (max-width: 480px) {
+  h1 {
+    color: red;
+  }  
+  .item-1 {
+    width: 100%;
+  }
+  .item-2 {
+    width: 100%;
+  }
+  .item-3 {
+    width: 100%;
+  }
+  .item-4 {
+    width: 100%;
+  }
+  .item-5 {
+    width: 100%;
+  }
+  .item-6 {
+    width: 100%;
+  }
+  .item-7 {
+    width: 100%;
+  }
+  .item-8 {
+    width: 100%;
+  }
+}

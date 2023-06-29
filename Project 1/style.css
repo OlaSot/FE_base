@@ -1,0 +1,21 @@
+h1 {
+    color:rgb(161, 120, 120);
+    text-align: center;
+}
+img {
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+article {
+    background-color: rgb(223, 215, 216);
+    width: 85%;
+    margin:auto;
+    padding: 30px;
+
+}
+p {
+    color:rgb(207, 101, 30);
+    font-size: 24px;
+    text-align: center;
+}

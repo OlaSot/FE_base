@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    padding: 140px 0;
+}
+.form-wrapper {
+width: 70%;
+margin: auto;
+background-color: #34495e;
+padding: 80px 150px;
+border-radius: 20px;
+}
+input {
+    padding: 10px 35px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+}
+
+input::placeholder {
+    color: black;
+}
+
+.product-form {
+    display: flex;
+    flex-direction: column;
+}
+    
+input[type="number"] {
+        margin: 35px 0 120px;
+ }
+ input[type="text"], input[type="number"] {
+    background-color: #d9d9d9;
+ }
+
+ input[type="submit"] {
+    background-color: #27ae60;
+    color: white;
+ }
+
+ /* products*/
+
+ .products-wrapper {
+    width: 70%;
+    margin: 70px auto 0;
+ }
+
+ .product {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+    background-color: #34495e;
+    border-radius: 20px;
+    color: white;
+    font-size: 25px;
+    
+ }
+ .product:not(:last-child) {
+    margin-bottom: 30px;
+ }
